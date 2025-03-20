@@ -1,0 +1,479 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Shop - Furniro
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+ </head>
+ <body class="bg-gray-100">
+  <!-- Header -->
+  <header class="bg-white shadow">
+   <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+    <div class="flex items-center">
+     <img alt="Furniro logo" class="mr-2" src="https://placehold.co/40x40"/>
+     <span class="text-2xl font-bold">
+      Furniro
+     </span>
+    </div>
+    <nav class="space-x-4">
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Home
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Shop
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      About
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      Contact
+     </a>
+    </nav>
+    <div class="space-x-4">
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fas fa-user">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fas fa-search">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fas fa-heart">
+      </i>
+     </a>
+     <a class="text-gray-700 hover:text-gray-900" href="#">
+      <i class="fas fa-shopping-cart">
+      </i>
+     </a>
+    </div>
+   </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="bg-cover bg-center h-64" style="background-image: url('https://placehold.co/1920x300');">
+   <div class="container mx-auto h-full flex items-center justify-center">
+    <div class="text-center text-white">
+     <h1 class="text-4xl font-bold">
+      Shop
+     </h1>
+     <p>
+      Home &gt; Shop
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Filter Section -->
+  <section class="bg-gray-200 py-4">
+   <div class="container mx-auto px-4 flex justify-between items-center">
+    <div class="flex items-center space-x-4">
+     <button class="bg-white p-2 rounded shadow">
+      <i class="fas fa-filter">
+      </i>
+      Filter
+     </button>
+     <button class="bg-white p-2 rounded shadow">
+      <i class="fas fa-th">
+      </i>
+     </button>
+     <button class="bg-white p-2 rounded shadow">
+      <i class="fas fa-list">
+      </i>
+     </button>
+     <span>
+      Showing 1–16 of 32 results
+     </span>
+    </div>
+    <div class="flex items-center space-x-4">
+     <span>
+      Show
+     </span>
+     <select class="bg-white p-2 rounded shadow">
+      <option>
+       16
+      </option>
+     </select>
+     <span>
+      Short by
+     </span>
+     <select class="bg-white p-2 rounded shadow">
+      <option>
+       Default
+      </option>
+     </select>
+    </div>
+   </div>
+  </section>
+  <!-- Products Section -->
+  <section class="py-8">
+   <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    <!-- Product Card -->
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Syltherine Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -30%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Syltherine
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      3.500.000d
+     </p>
+    </div>
+    <!-- Repeat Product Cards -->
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Leviosa Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Leviosa
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Lolito Luxury big sofa" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -50%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Lolito
+     </h2>
+     <p class="text-gray-500">
+      Luxury big sofa
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      7.000.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      14.000.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Respira Outdoor bar table and stool" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-teal-500 text-white text-xs px-2 py-1 rounded">
+       New
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Respira
+     </h2>
+     <p class="text-gray-500">
+      Outdoor bar table and stool
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      5.000.000d
+     </p>
+    </div>
+    <!-- Repeat Product Cards -->
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Syltherine Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -30%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Syltherine
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      3.500.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Leviosa Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Leviosa
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Lolito Luxury big sofa" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -50%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Lolito
+     </h2>
+     <p class="text-gray-500">
+      Luxury big sofa
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      7.000.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      14.000.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Respira Outdoor bar table and stool" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-teal-500 text-white text-xs px-2 py-1 rounded">
+       New
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Respira
+     </h2>
+     <p class="text-gray-500">
+      Outdoor bar table and stool
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      5.000.000d
+     </p>
+    </div>
+    <!-- Repeat Product Cards -->
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Syltherine Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -30%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Syltherine
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      3.500.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Leviosa Stylish cafe chair" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Leviosa
+     </h2>
+     <p class="text-gray-500">
+      Stylish cafe chair
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      2.500.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Lolito Luxury big sofa" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+       -50%
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Lolito
+     </h2>
+     <p class="text-gray-500">
+      Luxury big sofa
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      7.000.000d
+     </p>
+     <p class="text-gray-500 line-through">
+      14.000.000d
+     </p>
+    </div>
+    <div class="bg-white p-4 rounded shadow">
+     <div class="relative">
+      <img alt="Respira Outdoor bar table and stool" class="w-full h-48 object-cover rounded" src="https://placehold.co/300x300"/>
+      <span class="absolute top-2 right-2 bg-teal-500 text-white text-xs px-2 py-1 rounded">
+       New
+      </span>
+     </div>
+     <h2 class="mt-4 text-lg font-bold">
+      Respira
+     </h2>
+     <p class="text-gray-500">
+      Outdoor bar table and stool
+     </p>
+     <p class="mt-2 text-lg font-bold">
+      5.000.000d
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Pagination -->
+  <section class="py-8">
+   <div class="container mx-auto px-4 flex justify-center space-x-2">
+    <button class="bg-yellow-600 text-white px-4 py-2 rounded">
+     1
+    </button>
+    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">
+     2
+    </button>
+    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">
+     3
+    </button>
+    <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded">
+     Next
+    </button>
+   </div>
+  </section>
+  <!-- Features Section -->
+  <section class="bg-gray-200 py-8">
+   <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
+    <div class="flex flex-col items-center">
+     <i class="fas fa-trophy text-4xl text-yellow-600">
+     </i>
+     <h3 class="mt-2 text-lg font-bold">
+      High Quality
+     </h3>
+     <p class="text-gray-500">
+      crafted from top materials
+     </p>
+    </div>
+    <div class="flex flex-col items-center">
+     <i class="fas fa-shield-alt text-4xl text-yellow-600">
+     </i>
+     <h3 class="mt-2 text-lg font-bold">
+      Warranty Protection
+     </h3>
+     <p class="text-gray-500">
+      Over 2 years
+     </p>
+    </div>
+    <div class="flex flex-col items-center">
+     <i class="fas fa-shipping-fast text-4xl text-yellow-600">
+     </i>
+     <h3 class="mt-2 text-lg font-bold">
+      Free Shipping
+     </h3>
+     <p class="text-gray-500">
+      Order over 150 $
+     </p>
+    </div>
+    <div class="flex flex-col items-center">
+     <i class="fas fa-headset text-4xl text-yellow-600">
+     </i>
+     <h3 class="mt-2 text-lg font-bold">
+      24 / 7 Support
+     </h3>
+     <p class="text-gray-500">
+      Dedicated support
+     </p>
+    </div>
+   </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-white py-8">
+   <div class="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <div>
+     <h3 class="text-lg font-bold">
+      Funiro.
+     </h3>
+     <p class="text-gray-500 mt-2">
+      400 University Drive Suite 200 Coral Gables, FL 33134 USA
+     </p>
+    </div>
+    <div>
+     <h3 class="text-lg font-bold">
+      Links
+     </h3>
+     <ul class="mt-2 space-y-2">
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Shop
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Contact
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-lg font-bold">
+      Help
+     </h3>
+     <ul class="mt-2 space-y-2">
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Payment Options
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Returns
+       </a>
+      </li>
+      <li>
+       <a class="text-gray-700 hover:text-gray-900" href="#">
+        Privacy Policies
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-lg font-bold">
+      Newsletter
+     </h3>
+     <form class="mt-2 flex">
+      <input class="p-2 border border-gray-300 rounded-l w-full"z placeholder="Enter Your Email Address" type="email"/>
+      <button class="bg-yellow-600 text-white px-4 py-2 rounded-r">
+       SUBSCRIBE
+      </button>
+     </form>
+    </div>
+   </div>
+   <div class="mt-8 text-center text-gray-500">
+    <p>
+     2023 funiro. All rights reserved
+    </p>
+   </div>
+  </footer>
+ </body>
+</html>
